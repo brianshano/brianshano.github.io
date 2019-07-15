@@ -1,5 +1,5 @@
 const prod = process.env.NODE_ENV === 'production';
 
 module.exports = {
-  'process.env.BACKEND_URL': prod ? '/brianshano.github.io' : ''
+  'process.env.BACKEND_URL': prod ? '/brianshano.github.io/out' : ''
 };
