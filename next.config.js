@@ -11,5 +11,5 @@ module.exports = {
       '/about': { page: '/about' }
     };
   },
-  assetPrefix: !debug ? '/brianshano.github.io/' : ''
+  assetPrefix: !debug ? '/brianshano.github.io/out' : ''
 };

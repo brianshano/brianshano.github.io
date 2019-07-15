@@ -1,5 +1,6 @@
 import Header from '../components/Header';
 import Layout from '../components/Layout.js';
+import Link from 'next/link';
 
 export default function Index() {
   return (
@@ -33,6 +34,9 @@ export default function Index() {
         }
       `}</style>
       ;
+      <Link href="/about" as={process.env.BACKEND_URL + '/about'}>
+        <a>About</a>
+      </Link>
     </Layout>
   );
 }
