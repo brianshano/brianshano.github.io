@@ -8,12 +8,22 @@ const Header = () => (
       className="profile-pic"
       alt="logo"
     />
+    <div className="head-text">
+      Creative Technologist, full stack engineer, Frontend / UI expert,
+      user-focused, business analyst
+    </div>
     <style jsx>
       {`
         .header {
           width: 100%;
           margin: 0 auto;
           text-align: center;
+          font-family: 'Istok Web', sans-serif;
+          // font-family: 'Cabin', sans-serif;
+        }
+        .head-text {
+          font-size: 16px;
+          margin: 1rem;
         }
         .profile-pic {
           width: 12rem;

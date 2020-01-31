@@ -6,10 +6,24 @@ export default function Index() {
   return (
     <Layout>
       <p className="tsttxt">Hello Next.js</p>
+      <style>
+        @import
+        url('https://fonts.googleapis.com/css?family=Cabin|Istok+Web&display=swap');
+      </style>
       <style jsx>{`
+        body,
+        p,
+        div,
+        a,
+        span,
+        figcaption {
+          // font-family: 'Istok Web', sans-serif;
+          font-family: 'Cabin', sans-serif;
+          // font-family: 'Helvetica';
+        }
         h1,
         a {
-          font-family: 'Arial';
+          font-family: 'Cabin', sans-serif;
         }
 
         .tsttxt {
@@ -33,7 +47,7 @@ export default function Index() {
           opacity: 0.6;
         }
       `}</style>
-      ;
+
       <Link href="/about" as={process.env.BACKEND_URL + '/about'}>
         <a>About</a>
       </Link>
