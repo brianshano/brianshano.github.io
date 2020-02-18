@@ -10,8 +10,9 @@ Execute [`create-next-app`](https://github.com/segmentio/create-next-app) with [
 npx create-next-app --example gh-pages gh-pages-app
 # or
 yarn create next-app --example gh-pages gh-pages-app
-```
 
+```
+https://brianshano.github.io/brianshano.github.io
 ### Download manually
 
 Download the example:
