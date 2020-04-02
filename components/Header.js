@@ -9,9 +9,21 @@ const Header = () => (
       alt="logo"
     />
     <div className="head-text">
-      Creative Technologist, full stack engineer, Frontend / UI expert,
-      user-focused, business analyst
+      Creative Technologist | Full Stack Engineer | Frontend / UI expert | User
+      Focused | Business Analyst
     </div>
+    <a
+      href="https://twitter.com/BrianShano?ref_src=twsrc%5Etfw"
+      class="twitter-follow-button"
+      data-show-count="false"
+    >
+      Follow @BrianShano
+    </a>
+    <script
+      async
+      src="https://platform.twitter.com/widgets.js"
+      charset="utf-8"
+    ></script>
     <style jsx>
       {`
         .header {
