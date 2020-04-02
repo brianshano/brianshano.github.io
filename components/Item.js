@@ -20,16 +20,19 @@ const Item = props => {
     //   color: 'orange'
     // },
     {
-      title: 'Riffstation | Fender',
-      mediaType: 'video',
+      title: 'Labour Hopscotch',
+      mediaType: 'image',
       media:
-        'https://res.cloudinary.com/bshano/video/upload/f_auto/v1561129114/Portfolio%20Photos/Jun-21-2019_15-53-42.mp4',
-      alt: 'Riffstation.com',
-      year: '2015',
-      caption: 'ember.js, html5, SASS',
-      link: '',
-      color: 'orange'
+        'https://res.cloudinary.com/bshano/image/upload/f_auto/v1585865232/Portfolio%20Photos/labour-hopscotch.png',
+
+      alt: 'LabourHopscotch',
+      year: '2020',
+      caption:
+        'Labour Hopscotch - Visual Birthing Guide. PWA (Progressive Web App) - React',
+      link: 'https://labourhopscotch.netlify.com/',
+      color: 'teal'
     },
+
     {
       title: 'Dart Times',
       mediaType: 'image',
@@ -43,17 +46,6 @@ const Item = props => {
       color: 'purple'
     },
     {
-      title: 'Torc Product Development',
-      mediaType: 'video',
-      media:
-        'https://res.cloudinary.com/bshano/video/upload/f_auto/v1561133113/Portfolio%20Photos/animated/torcpd.mp4',
-      alt: 'Torcpd.com',
-      year: '2014',
-      caption: 'Heavily modified and customised wordpress theme',
-      link: '',
-      color: 'green'
-    },
-    {
       title: 'Tune Source',
       mediaType: 'image',
       media:
@@ -63,19 +55,29 @@ const Item = props => {
       year: '2016',
       caption: 'TuneSource Trad Music Notation Library - React App - PWA',
       link: 'https://tunesource.net/',
+      color: 'green'
+    },
+    {
+      title: 'Riffstation | Fender',
+      mediaType: 'video',
+      media:
+        'https://res.cloudinary.com/bshano/video/upload/f_auto/v1561129114/Portfolio%20Photos/Jun-21-2019_15-53-42.mp4',
+      alt: 'Riffstation.com',
+      year: '2015',
+      caption: 'ember.js, html5, SASS',
+      link: '',
       color: 'red'
     },
     {
-      title: 'Ryanair.com',
+      title: 'Torc Product Development',
       mediaType: 'video',
       media:
-        'https://res.cloudinary.com/bshano/video/upload/c_scale,f_auto,w_745/v1561131508/Portfolio%20Photos/animated/ryanair-2005.mp4',
-
-      alt: 'Ryanair.com',
-      year: '2005',
-      caption: "HTML, PHP, Flash, CSV price imports... c'mon it was 2005!",
+        'https://res.cloudinary.com/bshano/video/upload/f_auto/v1561133113/Portfolio%20Photos/animated/torcpd.mp4',
+      alt: 'Torcpd.com',
+      year: '2014',
+      caption: 'Heavily modified and customised wordpress theme',
       link: '',
-      color: 'blue'
+      color: 'orange'
     },
     {
       title: 'Revenue.ie',
@@ -88,6 +90,18 @@ const Item = props => {
       caption: 'JavaScript, JQuery, Java, Perl, Weblogic, Liferay, Solr',
       link: '',
       color: 'grey'
+    },
+    {
+      title: 'Ryanair.com',
+      mediaType: 'video',
+      media:
+        'https://res.cloudinary.com/bshano/video/upload/c_scale,f_auto,w_745/v1561131508/Portfolio%20Photos/animated/ryanair-2005.mp4',
+
+      alt: 'Ryanair.com',
+      year: '2005',
+      caption: "HTML, PHP, Flash, CSV price imports... c'mon it was 2005!",
+      link: '',
+      color: 'blue'
     }
   ];
 
@@ -183,6 +197,9 @@ const Item = props => {
           }
           .bg-grey {
             background-color: #c4c4c4;
+          }
+          .bg-teal {
+            background-color: #65cab8;
           }
 
           .item {

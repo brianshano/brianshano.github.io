@@ -5,7 +5,7 @@ import Link from 'next/link';
 export default function Index() {
   return (
     <Layout>
-      <p className="tsttxt">Hello Next.js</p>
+      {/* <p className="tsttxt">Hello Next.js</p> */}
       <style>
         @import
         url('https://fonts.googleapis.com/css?family=Cabin|Istok+Web&display=swap');
