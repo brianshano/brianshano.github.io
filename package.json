@@ -9,6 +9,7 @@
     "deploy": "rm -rf node_modules/.cache && next build && next export && touch out/.nojekyll && git add out/ && git commit -m \"Deploy Next.js to master\" && git subtree push --prefix out origin master"
   },
   "dependencies": {
+    "kind-of": "^6.0.3",
     "next": "^9.3.2",
     "react": "^16.12.0",
     "react-dom": "^16.12.0"
