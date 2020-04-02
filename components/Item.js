@@ -122,7 +122,7 @@ const Item = props => {
               {data.link !== '' ? (
                 <a
                   href={data.link}
-                  class="item-link"
+                  className="item-link"
                   target="_blank"
                   rel="noopener"
                 >
